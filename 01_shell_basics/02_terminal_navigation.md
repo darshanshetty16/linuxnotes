@@ -14,7 +14,7 @@ To list all the files the current directory including ***HIDDEN FILES*** run ls 
 
 Run ls -la command to show detailed list of all files ad folders,including Hidden files
 
-<pre>$ ls -la<pre>
+<pre>$ ls -la</pre>
 
 To change the ***current working directory*** run cd command followed by folder name 
 
