@@ -1,53 +1,48 @@
-To create a new directory(folder) run the mkdir command followed by directory name
-***Example 1***    #create single directory
-<pre>$ mkdir project1 </pre>
- 
-***Example 2*** #create multiple directory
-<pre>$ mkdir project2 project3 project3 </pre>
+1.<strong>File and Directory Creation</strong> <br>
+commands used to intialize new file or folder structures within filesystems <br>
 
-To create the empty file,run the touch command followed by filename
-***Example 1*** #create the single directory
-<pre>$ touch file.txt </pre>
+<strong>touch</strong> <br>
+<pre> touch filename </pre>
+Creates the new empty file if it does not exists <br>
 
-***Example 2*** #create multiple file at once
-<pre>$ touch file1.txt file2.txt file3.txt </pre>
+<strong>mkdir</strong> <br>
+<pre> mkdir directory_name </pre>
+Creates the directory in the specified path <br>
 
-To copy file from one location to another,run the cp command
-<pre>$ cp source_file destination_file </pre>
+2.<strong> File and Directory Deletion</strong> <br>
+Commands used to delete data from the system <br>
 
-To copy a directory and all its contents recursively run the cp -r command
-<pre>$ cp -r source_directory destination_directory </pre>
+<strong> rmdir </strong> <br>
+<pre> rmdir directory_name </pre>
+Removes an empty directory from the filesystem <br>
 
-To  move or  rename a file or directory,run the mv command 
-<pre>$ mv source_file destination_file </pre>
+<strong> rm </strong> <br>
+<pre> rm filename</pre>
+removes specific file to delete <br>
 
-To display the detailed information about a file or directory,run stat command:
-<pre>$ stat file_name </pre>
- 
-To determine the type of the file, run the file command
-<pre>$ file file_name </pre>
+<strong>rm -r</strong> <br>
+<pre> rm -r directory_name </pre>
+Recusively deletes the directories and all of its content,includung subdirectories <br>
 
-To check the disk usage of the file or directory,run the du command
-<pre>$ du filename </pre>
+<strong>rm -rf</strong> <br>
+<pre> rm -rf directory_name </pre>
+Forcefully and recursively removes the directories without promting for conformation <br>
 
-To check the disk usage in the human readable format, run du -h command
-<pre>$ du -h file_name</pre>
+3.<strong> File Manuplation and Movement </strong> <br>
+Commands for copying,moving and renaming files or directories <br>
+
+<strong>cp</strong> <br>
+<pre> cp source_file destination_file </pre>
+copies files from one location to another <br>
+
+<strong> cp -r </strong> <br>
+<pre> cp -r source_directory destination_directory </pre>
+Copies an entire directory and all its contents to new location <br>
 
 
-To display filesystem diskspace usage ,run the df command
-<pre>$ df <pre>
+<strong> mv </strong> <br>
+<pre> mv source_file destination_file </pre>
+Moves or renames the files and directories within the filesystem <br>
 
-To display file system dsik space usage in human readable format run df -h command
-<pre>$ df -h <pre>
 
-To remove an empty directory,run the rmdir command followed by the directory which you want to delete:
-<pre>$ rmdir folder_name </pre>
-
-To remove a file, run rm command 
-<pre>$ rm file.txt</pre>
-
-To remove a file and its content recursively, rm -r command
-<pre>$ rm -r file2.txt </pre>
-
-To forcefully remove a directory and its contents without confirmation, run rm -rf command:
-<pre>$ rm -rf dirname </pre>
+<
