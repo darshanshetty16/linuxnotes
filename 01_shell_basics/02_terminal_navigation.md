@@ -6,22 +6,22 @@ Displays the full path of your current working Directory.
 Lists file and folders.Use this to see what is around you
 <pre> ls </pre>
 
-list all(including the hidden files)
-<pre> ls -a <pre>
+list all(including the hidden files).
+<pre> ls -a </pre>
 
 <strong>Detailed list</strong> <br>
-shows permissions,ownersize and date
+shows permissions,ownersize and date.
 <pre> ls -la </pre>
 
 3.<strong>Change directory </strong> <br>
-Navigate the specific folder
-<pre> cd folder_name <pre>
+Navigate the specific folder.
+<pre> cd folder_name </pre>
 
-Move to Parent directory
-<pre> cd .. <pre>
+Move to Parent directory.
+<pre> cd .. </pre>
 
-To go directly to your Home directory 
-<pre> cd ~ <pre>
+To go directly to your Home directory. 
+<pre> cd ~ </pre>
 
 4.<strong> Terminal Utilities </strong> <br>
 Commands to manage your workspace and past actions 
